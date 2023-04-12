@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 471473268560.dkr.ecr.us-east-1.amazonaws.com/eks-example:8a63ee8f # Modify: replace with your image URI
+        image: 471473268560.dkr.ecr.us-east-1.amazonaws.com/eks-example:4fc0e665 # Modify: replace with your image URI
         imagePullPolicy: IfNotPresent
         resources:
           requests:
