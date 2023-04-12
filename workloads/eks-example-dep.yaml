@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,10 +20,10 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 471473268560.dkr.ecr.us-east-1.amazonaws.com/eks-example:00267ffe # Modify: replace with your image URI
+        image: 471473268560.dkr.ecr.us-east-1.amazonaws.com/eks-example:a5992830 # Modify: replace with your image URI
         imagePullPolicy: IfNotPresent
         resources:
-          requests: 
+          requests:
             memory: "64Mi" # Modify: set to 64Mi
             cpu: "200m" # Modify: set to 200m
           limits:
